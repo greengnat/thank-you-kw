@@ -102,7 +102,7 @@ function App() {
   };
   return (
     <Background>
-      <Title>Dear Kathy and Will</Title>
+      <Title>Dear Grandpa and Grandma</Title>
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <FrontFace>
           Thank You
@@ -111,10 +111,10 @@ function App() {
 
         <BackFace>
           <BackFaceText>
-            You are the most awesome family a guy could wish for. Reaching out
-            to me made my birthday grand and joyous. I hope you have a great,
-            healthy, and relaxing holiday season. I am looking forward to seeing
-            you once the 'Rona' is over.
+            I couldn't wish for better Grandparents. Reaching out to me made my
+            birthday grand and joyous. I hope you have a great, healthy, and
+            relaxing holiday season. I am looking forward to seeing you once the
+            'Rona' is over.
           </BackFaceText>
           <BackFaceTextSig>Much love, Will.</BackFaceTextSig>
           <Button onClick={handleClick}>Click to flip</Button>
